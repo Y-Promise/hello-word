@@ -1,0 +1,57 @@
+* {
+	border: 0;
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style: none;
+}
+.news {
+	width: 720px;
+	min-height: 1410px;
+	background: #0e0e0e;
+	color: #FFFFFF;
+	/* background: url(../img/我的.png) round; */
+}
+
+h1 {
+	margin-bottom: 45px;
+	height: 80px;
+	line-height: 80px;
+	font-weight: 100;
+}
+
+.n_ul{
+	padding: 0px 30px;
+}
+
+.n_ul li{
+	height: 100px;
+	margin: 25px 0px;
+}
+
+.n_ul div:nth-of-type(1){
+	width: 76px;
+	line-height: 76px;
+	border-radius: 50%;
+	background: #ffffff;
+	color: #000000;
+	font-size: 50px;
+	float: left;
+	margin-right: 20px;
+}
+
+.n_ul div:nth-of-type(2){
+	width: 560px;
+	float: left;
+	font-size: 30px;
+	height: 100px;
+	line-height: 80px;
+	text-align: left;
+	border-bottom: 2px solid #181818;
+}
+
+
+
+
+
+

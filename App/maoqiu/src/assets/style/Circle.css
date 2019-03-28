@@ -1,0 +1,142 @@
+* {
+	border: 0;
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style: none;
+}
+
+.Circle {
+	width: 720px;
+	min-height: 1410px;
+	color: #ffffff;
+	background: #0e0e0e;
+}
+
+.C_div1 {
+	/* height: 600px; */
+	color: #FFFFFF;
+	background: linear-gradient(to bottom, #7161e3 15%, #0e0e0e 60%, #1b1b1b 90%);
+}
+ /*
+	改变placeholder颜色
+  */
+input::-webkit-input-placeholder {
+	color: #b6afdc;
+}
+
+input::-moz-placeholder {
+	/* Mozilla Firefox 19+ */
+	color: #b6afdc;
+}
+
+input:-moz-placeholder {
+	/* Mozilla Firefox 4 to 18 */
+	color: #b6afdc;
+}
+
+input:-ms-input-placeholder {
+	/* Internet Explorer 10-11 */
+	color: #b6afdc;
+}
+
+.input {
+	box-sizing: border-box;
+	padding: 0px 20px;
+	margin: 20px 20px;
+	width: 650px;
+	height: 60px;
+	border-radius: 50px;
+	color: #FFFFFF;
+	background: linear-gradient(to bottom, #6658bb 0%, #6857b2 100%);
+	text-align: center;
+	font-size: 28px;
+}
+.span_position{
+	position: absolute;
+	margin-left: 210px;
+	margin-top: 35px;
+	font-size: 30px;
+	color: #b6afdc;
+}
+
+h1 {
+	height: 80px;
+	line-height: 80px;
+	font-weight: 100;
+	margin-left: 40px;
+	text-align: left;
+}
+
+.swiper{
+	margin: 30px 0px 50px;
+}
+
+.swiper_img{
+	width: 630px;
+	height: 385px;
+}
+
+.C_ul1{
+	/* padding: 20px 0px; */
+	/* font-size: 28px; */
+	/* color: #ababab; */
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.C_ul1 div{
+	border-radius: 100px 50px 100px 50px;
+}
+
+.C_div1_1{
+	background: #47518a;
+}
+
+.C_div1_2{
+	background: #357f76;
+}
+
+.C_div1_3{
+	background: #74538b;
+}
+.C_ul1 p{
+	font-size: 28px;
+	margin: 20px 0px 50px;
+}
+
+.C_div2{
+	margin-top: 20px;
+	background: #1b1b1b;
+}
+
+.C_ul2 li{
+	display: flex;
+	margin-left: 40px;
+	padding: 25px 0px;
+	border-bottom: 2px solid #0e0e0e;
+}
+
+
+.C_ul2 li div:nth-of-type(2){
+	flex: 1;
+	text-align: left;
+	padding-left: 40px;
+	font-size: 26px;
+}
+
+.C_ul2 p{
+	color: #ababab;
+	line-height: 45px;
+}
+
+h2{
+	font-weight: 100;
+}
+
+
+
+
+
+

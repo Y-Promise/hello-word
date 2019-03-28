@@ -1,0 +1,85 @@
+* {
+	border: 0;
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style: none;
+}
+
+.reg_user {
+	width: 720px;
+	min-height: 1410px;
+	background: url(../img/我的.png) round;
+}
+
+.main {
+	width: 720px;
+	color: #FFFFFF;
+	z-index: 1;
+	height: 1410px;
+	/* background: rgba(14, 14, 14, 0.9); */
+	background: rgba(0, 0, 0, 0.9);
+
+}
+
+h1 {
+	margin-bottom: 150px;
+	height: 80px;
+	line-height: 80px;
+	font-weight: 100;
+}
+
+.m_div span {
+	position: absolute;
+	margin-left: -28px;
+	margin-top: 90px;
+}
+
+.m_div2 {
+	margin: 65px 40px 0px;
+	font-size: 20px;
+	background: rgba(26, 26, 26, 0.9);
+}
+
+.m_div2 span {
+	padding: 15px;
+}
+
+.m_div2 input {
+	width: 548px;
+	font-size: 20px;
+	height: 85px;
+	background: none;
+	border-bottom: 1px solid #202020;
+	color: #855bb8;
+	outline: none;
+}
+
+.m_div2 li:nth-last-of-type(1){
+	height: 150px;
+}
+.m_div2 li:nth-last-of-type(1) input{
+	border:0;
+}
+
+.input3_no {
+	background: #352449;
+	width: 640px;
+	height: 78px;
+	border: 0;
+	border-radius: 10px;
+	color: white;
+	font-size: 22px;
+	margin: 30px 0px;
+}
+
+.input3_yes {
+	background: #855bb8;
+	width: 640px;
+	height: 78px;
+	border: 0;
+	border-radius: 10px;
+	color: white;
+	font-size: 22px;
+	margin: 30px 0px;
+}
